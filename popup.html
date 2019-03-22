@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello World</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/popup.css"/>                
+    </head>
+    <body>
+    <!-- Scripts -->
+        <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+        <script src="js/clipboard.min.js" type="text/javascript"></script>        
+        <script src="js/popup.js" type="text/javascript"></script>        
+    <!-- END SCRIPTS -->
+        <div class="popup">
+            <h5 class="logo toprow text-center text-muted font-weight-light"><span class="logo">U</span>na<span class="logo">L</span>ink</h5>
+            <div class="d-flex entry-link">
+                <input type="text" id="URL_Name" class="form-control form-control-lg font-weight-light font-italic" id="LinkID1" placeholder="Enter website here...">
+                <button type="button" id="URL_Save" class="btn btn-primary btn-lg left-margin">Save</button>
+            </div>
+            <div id="URL_error" class="d-none sm-top-margin text-danger">Please enter a valid website</div>
+            
+            <!-- Saved URLS -->
+            <div id="URL_Container" class="top-margin">
+                <div>
+                    <table id="URL_Table" class="table table-bordered table-striped">
+                        <thead class="thead-dark">
+                            <tr>
+                              <th scope="col" class="col font-weight-normal">URL</th>
+                              <th scope="col" class="col font-weight-normal text-center">Copy</th>
+                              <th scope="col" class="col font-weight-normal text-center">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!--ROWS GO IN HERE -->
+                            <!-- <tr>
+                                <td class="align-middle"><a id="foo3" target="_blank" href="#">www.sample.com</td>
+                                <td>
+                                    <button class="btn btn-light rounded shadow-sm" data-toggle="tooltip" data-placement="bottom" data-original-title="Copy" data-clipboard-action="copy" data-clipboard-target="#foo3"><img src="images/icons8-copy-12.png" alt="copy icon">
+                                    </button>
+                                </td>
+                                <td class="align-middle">
+                                    <button type="button" id="Remove_' + value2 + '" class="btn btn-danger btn-sm margin-right">Remove</button>
+                                </td>
+                            </tr> -->
+                        </tbody>
+                    </table>
+                </div>    
+                <div id="No_URL" class="text-center bg-light no-url-height">No URLs Saved</div>
+            </div>
+            <div class="text-center top-margin">
+                <span class="text-secondary">&copy; UnaLink 2019 - </span><a target="_blank" href="options.html">Extension Options</a>
+            </div>
+        <!-- POPUP DIV -->
+        </div>
+        
+    <!-- End of Body Tag -->
+    </body>
+
+</html>

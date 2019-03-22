@@ -1,0 +1,56 @@
+* {
+	font-family: 'Helvetica', sans-serif;
+	font-size: 12px;
+}
+
+.logo {
+	color: #2B85B7;
+	font-size: 20px;
+}
+
+.blueHighlight { 
+	color: #2B85B7;
+}
+
+.toprow { 
+	padding-bottom: 10px;
+	margin-bottom: 16px;
+	border-bottom: 1px solid #CCC;
+}
+
+.popup {
+	width: 480px;
+	padding:20px;
+}
+
+.left-margin {
+	margin-left: 10px;
+}
+
+.margin-right {
+	margin-right: 10px;
+}
+
+.sm-top-margin {
+	margin-top: 6px;
+}
+
+.top-margin {
+	margin-top: 20px;
+}
+
+.no-url-height {
+	padding-top: 20px;
+	height: 50px;
+	color: grey;
+}
+
+
+.btn-danger {
+	height:29px;
+	width: 60px;
+}
+
+.margin-auto {
+	margin: auto;
+}
